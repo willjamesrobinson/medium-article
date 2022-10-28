@@ -1,0 +1,100 @@
+div {
+  display: block;
+}
+
+p {
+  margin-left: 30px 0px;
+  font-family: 'Lora', serif;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  color: #A0A0A0;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 27px;
+}
+
+h4 {
+  font-family: 'Lora', serif;
+  font-size: 25px;
+}
+
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+.banner{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+  height: 350px;
+}
+
+.banner h1 {
+  font-size: 50px;
+}
+
+.banner h2 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-left: 30px;
+}
+
+.container h2{
+  margin-left: 30px;
+  font-family: 'Lora', serif;
+}
+
+.container h4{
+  margin-left: 30px;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.container h1{
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+.container p{
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  margin-left: 30px;
+}
+
+.container h3{
+  margin-left: 30px;
+  margin-top: 27px;
+  font-size: 32px;
+}
+
+.container {
+  width: 950px;
+  margin: 50px auto;
+}
